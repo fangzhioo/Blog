@@ -9,7 +9,7 @@ mysql:
 #   - 13306:3306
 
 my-blog:
-  image: blog/my-blog
+  build: ./myblog
   ports:
    - 28080:8080
   links:
